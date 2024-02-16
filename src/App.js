@@ -14,14 +14,19 @@ import Diferenciar from "./components/Diferenciar"
 import ParImpar from "./components/ParImpar"
 import Membro from "./components/relacao/Membro"
 import UsuarioLogado from "./components/UsuarioLogado"
+import ListaProdutos from "./components/produtos/ListaProdutos"
+import ListaProdutos2 from "./components/produtos/ListaProdutos2"
 
 export default () => (
-    <SafeAreaView style = {style.App}>
-     
-     <UsuarioLogado usuario={ {nome: "Gui", email: "gui@gui.com.br"} }/>
-     <UsuarioLogado usuario={ {nome: "Leo"} }/>
-     
+    <SafeAreaView style={style.App}>
+
+        <ListaProdutos2 />
+
+
         {/* 
+        <ListaProdutos />
+        <UsuarioLogado usuario={{ nome: "Gui", email: "gui@gui.com.br" }} />
+        <UsuarioLogado usuario={{ nome: "Leo" }} />
         <Familia>
             <Membro nome="Bia" sobrenome="Calabresa"/>
             <Membro nome="Carlos" sobrenome="Calabresa"/>

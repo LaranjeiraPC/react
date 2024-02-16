@@ -1,6 +1,6 @@
-import React, { useState } from 'react' 
-import { Text } from 'react-native' 
-import Estilo from './estilo' 
+import React, { useState } from 'react'
+import { Text } from 'react-native'
+import Estilo from './estilo'
 import If from './If'
 
 export default props => {
@@ -12,5 +12,5 @@ export default props => {
                 <Text style={Estilo.textoGrande}>{usuario.nome} - {usuario.email}</Text>
             </If>
         </>
-   )
+    )
 }
